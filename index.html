@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary Meta Tags -->
+    <title>LinkedInCity — Your LinkedIn Activity as a 3D City Skyline</title>
+    <meta name="title" content="LinkedInCity — Your LinkedIn Activity as a 3D City Skyline" />
+    <meta name="description" content="Transform your LinkedIn professional activity into a stunning interactive 3D city. Drive through streets built from your posts, articles, and engagement. Multiple views: Isometric, Bird's Eye, and WebGL Simulation." />
+    <meta name="keywords" content="LinkedIn, 3D city, data visualization, professional activity, skyline, interactive, WebGL, isometric" />
+    <meta name="author" content="LinkedInCity" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://linkedincity.app/" />
+    <meta property="og:title" content="LinkedInCity — Your LinkedIn Activity as a 3D City" />
+    <meta property="og:description" content="Transform your LinkedIn professional activity into a stunning interactive 3D city skyline." />
+    <meta property="og:image" content="https://linkedincity.app/og-image.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://linkedincity.app/" />
+    <meta property="twitter:title" content="LinkedInCity — Your LinkedIn Activity as a 3D City" />
+    <meta property="twitter:description" content="Transform your LinkedIn professional activity into a stunning interactive 3D city skyline." />
+    <meta property="twitter:image" content="https://linkedincity.app/og-image.png" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='80' font-size='80'>🏙️</text></svg>" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "LinkedInCity",
+      "url": "https://linkedincity.app",
+      "description": "Transform your LinkedIn professional activity into a stunning interactive 3D city skyline.",
+      "applicationCategory": "VisualizationApplication",
+      "operatingSystem": "Any"
+    }
+    </script>
+
+    <style>
+      *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+      html, body, #root {
+        width: 100%; height: 100%; overflow: hidden;
+        background: #04080f; color: #cce0ff;
+        font-family: 'Courier New', monospace;
+      }
+      ::selection { background: #0A66C240; }
+      ::-webkit-scrollbar { width: 5px; }
+      ::-webkit-scrollbar-track { background: transparent; }
+      ::-webkit-scrollbar-thumb { background: #1a3050; border-radius: 9px; }
+    </style>
+  </head>
+  <body>
+    <!-- SEO shell for crawlers -->
+    <div id="seo-shell" style="position:absolute;left:-9999px;top:-9999px;width:1px;height:1px;overflow:hidden;">
+      <h1>LinkedInCity — Your LinkedIn Activity as a 3D City Skyline</h1>
+      <p>Transform your LinkedIn professional activity into a stunning interactive 3D cityscape.</p>
+      <p>Drive through streets built from your posts, articles, comments, and professional engagement.</p>
+      <p>Three visualization modes: Isometric SVG view, Bird's Eye heatmap, and full WebGL 3D city simulation with drivable car.</p>
+      <p>Six premium themes: Professional, Corporate, Recruiter, Sales, Premium, and Executive.</p>
+      <p>Features: Day/Night mode, Weather effects (Storm, Snow, Leaves), Background music, Minimap navigation.</p>
+      <nav>
+        <a href="/">Home</a>
+      </nav>
+    </div>
+
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
