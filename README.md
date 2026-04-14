@@ -298,6 +298,3 @@ This project is open source and available under the [MIT License](LICENSE).
   <strong>⭐ Star this repo if you find it cool!</strong>
 </p>
 
-<p align="center">
-  <em>Inspired by <a href="https://github.com/rishabhbhartiya/GitCity">GitCity</a></em>
-</p>
